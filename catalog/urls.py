@@ -6,6 +6,6 @@ from . import views
 
 app_name = NewappConfig.name
 urlpatterns = [
-    path('', home, name='home'),
+    path(' /home/', home, name='home'),
     path('contacts/', views.contacts, name='contacts'),
 ]
